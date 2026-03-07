@@ -65,6 +65,9 @@
 @define-color theme_selected_fg_color @selected_fg_color;
 @define-color theme_tooltip_bg_color @tooltip_bg_color;
 @define-color theme_tooltip_fg_color @tooltip_fg_color;
+@define-color theme_unfocused_selected_bg_color @selected_bg_color; /* kudos to jamjar 
+https://forum.manjaro.org/t/right-clicking-item-in-xfce-thunar-turns-it-blank-on-certain-themes-after-2025-02-04-update/174085/10 
+for this fix */
 
 /*Nemo Desktop shadow fix*/
 @define-color desktop_item_fg #ffffff;
@@ -130,11 +133,6 @@
 
 /* Whisker Menu side logo background color */
 @define-color whisker_menu_logo @bg_shade;
-
-/* XFCE desktop icon colours*/
-@define-color xfd_icon_backdrop #008081;
-@define-color xfd_icon_text #ffffff;
-@define-color xfd_rubberband_outline #ff7f7f;
 
 /* Nautilus desktop icon text colour */
 @define-color nautilus_icon_text @base_color;
