@@ -20,10 +20,10 @@ XfdesktopIconView.view {
   background-color: rgba(0, 0, 0, 0)}
   XfdesktopIconView.view:active {
     background-image: -gtk-gradient(linear, left top, right bottom, from (@selected_bg_color));
-    text-shadow: none;
+    text-shadow: 1px 1px 2px black;
     color: shade(@selected_bg_color, 3.0); }
   XfdesktopIconView.view .label {
-    text-shadow: none;
+    text-shadow: 1px 1px 2px black;
     color: @font_bright; }
   XfdesktopIconView.view .rubberband {
     border: 1px dotted @xfd_rubberband_outline;
